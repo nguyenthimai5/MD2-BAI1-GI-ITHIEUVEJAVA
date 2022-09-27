@@ -18,150 +18,150 @@ public class docSoThanhChu {
         if (number>=0 && number<10) {
             switch (number) {
                 case 0:
-                    donVi = "Zero";
+                    donVi = "không";
                     System.out.printf(donVi);
                     break;
                 case 1:
-                    donVi ="One";
+                    donVi ="một";
                     System.out.printf(donVi);
                     break;
                 case 2:
-                    donVi ="Two";
+                    donVi ="hai";
                     System.out.printf(donVi);
                     break;
                 case 3:
-                    donVi ="Three";
+                    donVi ="ba";
                     System.out.printf(donVi);
                     break;
                 case 4:
-                    donVi ="Four";
+                    donVi ="bốn";
                     System.out.printf(donVi);
                     break;
                 case 5:
-                    donVi ="Five";
+                    donVi ="năm";
                     System.out.printf(donVi);
                     break;
                 case 6:
-                    donVi ="Six";
+                    donVi ="sáu";
                     System.out.printf(donVi);
                     break;
                 case 7:
-                    donVi ="Seven";
+                    donVi ="bảy";
                     System.out.printf(donVi);
                     break;
                 case 8:
-                    donVi ="Eight";
+                    donVi ="tám";
                     System.out.printf(donVi);
                     break;
                 case 9:
-                    donVi ="Nine";
+                    donVi ="chín";
                     System.out.printf(donVi);
                     break;
             }
         } else if(number>=10 && number<20) {
             switch (number10) {
                 case 0:
-                    chuc = "Ten";
+                    chuc = "mười";
                     System.out.printf(chuc);
                     break;
                 case 1:
-                    chuc = "Eleven";
+                    chuc = "mười một";
                     System.out.printf(chuc);
                     break;
                 case 2:
-                    chuc = "Twelve";
+                    chuc = "mười hai";
                     System.out.printf(chuc);
                     break;
                 case 3:
-                    chuc = "Thirteen";
+                    chuc = "mười ba";
                     System.out.printf(chuc);
                     break;
                 case 4:
-                    chuc = "Fourteen";
+                    chuc = "mười bốn";
                     System.out.printf(chuc);
                     break;
                 case 5:
-                    chuc = "Fifteen";
+                    chuc = "mười lăm";
                     System.out.printf(chuc);
                     break;
                 case 6:
-                    chuc = "Sixteen";
+                    chuc = "mười sáu";
                     System.out.printf(chuc);
                     break;
                 case 7:
-                    chuc = "Seventeen";
+                    chuc = "mười bảy";
                     System.out.printf(chuc);
                     break;
                 case 8:
-                    chuc = "Eighteen";
+                    chuc = "mười tám";
                     System.out.printf(chuc);
                     break;
                 case 9:
-                    chuc = "Nineteen";
+                    chuc = "mười chín";
                     System.out.printf(chuc);
                     break;
             }
         } else if (number>=20 && number<100) {
             switch (numberDonVi) {
                 case 1:
-                    donVi ="One";
+                    donVi ="một";
                     break;
                 case 2:
-                    donVi ="Two";
+                    donVi ="hai";
                     break;
                 case 3:
-                    donVi ="Three";
+                    donVi ="ba";
                     break;
                 case 4:
-                    donVi ="Four";
+                    donVi ="bốn";
                     break;
                 case 5:
-                    donVi ="Five";
+                    donVi ="năm";
                     break;
                 case 6:
-                    donVi ="Six";
+                    donVi ="sáu";
                     break;
                 case 7:
-                    donVi ="Seven";
+                    donVi ="bảy";
                     break;
                 case 8:
-                    donVi ="Eight";
+                    donVi ="tám";
                     break;
                 case 9:
-                    donVi ="Nine";
+                    donVi ="chín";
                     break;
             }
             switch (numberChuc) {
                 case 2:
-                    chuc2 = "Twenty";
+                    chuc2 = "hai mươi ";
                     System.out.printf("%s  %s",chuc2,donVi);
                     break;
                 case 3:
-                    chuc2 = "Thirty";
+                    chuc2 = "ba mươi";
                     System.out.printf("%s  %s",chuc2,donVi);
                     break;
                 case 4:
-                    chuc2 = "Forty";
+                    chuc2 = "bốn mươi";
                     System.out.printf("%s  %s",chuc2,donVi);
                     break;
                 case 5:
-                    chuc2 = "Fifty";
+                    chuc2 = "năm mươi";
                     System.out.printf("%s  %s",chuc2,donVi);
                     break;
                 case 6:
-                    chuc2 = "Sixty";
+                    chuc2 = "sáu mươi";
                     System.out.printf("%s  %s",chuc2,donVi);
                     break;
                 case 7:
-                    chuc2 = "Seventy";
+                    chuc2 = "bảy mươi";
                     System.out.printf("%s  %s",chuc2,donVi);
                     break;
                 case 8:
-                    chuc2 = "Eighty";
+                    chuc2 = "tám mươi";
                     System.out.printf("%s  %s",chuc2,donVi);
                     break;
                 case 9:
-                    chuc2 = "Ninety";
+                    chuc2 = "chín mươi";
                     System.out.printf("%s  %s",chuc2,donVi);
                     break;
             }
@@ -169,165 +169,165 @@ public class docSoThanhChu {
             if (numberHangChucCuaSoCo3ChuSo>=10 && numberHangChucCuaSoCo3ChuSo<20){
                 switch (number10) {
                     case 0:
-                        chuc = "Ten";
+                        chuc = "mười ";
                         break;
                     case 1:
-                        chuc = "Eleven";
+                        chuc = "mười một";
                         break;
                     case 2:
-                        chuc = "Twelve";
+                        chuc = "mười hai";
                         break;
                     case 3:
-                        chuc = "Thirteen";
+                        chuc = "mười ba";
                         break;
                     case 4:
-                        chuc = "Fourteen";
+                        chuc = "mười bốn";
                         break;
                     case 5:
-                        chuc = "Fifteen";
+                        chuc = "mười lăm";
                         break;
                     case 6:
-                        chuc = "Sixteen";
+                        chuc = "mười sáu";
                         break;
                     case 7:
-                        chuc = "Seventeen";
+                        chuc = "mười bảy";
                         break;
                     case 8:
-                        chuc = "Eighteen";
+                        chuc = "mười tám";
                         break;
                     case 9:
-                        chuc = "Nineteen";
+                        chuc = "mười chín";
                         break;
                 }
                 switch (numberTram) {
                     case 1:
-                        tram = "One hundred";
+                        tram = "một trăm";
                         System.out.printf("%s %s",tram,chuc);
                         break;
                     case 2:
-                        tram = "Two hundred";
+                        tram = "hai trăm";
                         System.out.printf("%s %s",tram,chuc);
                         break;
                     case 3:
-                        tram = "Three hundred";
+                        tram = "ba trăm";
                         System.out.printf("%s %s",tram,chuc);
                         break;
                     case 4:
-                        tram = "Four hundred";
+                        tram = "bốn trăm";
                         System.out.printf("%s %s",tram,chuc);
                         break;
                     case 5:
-                        tram = "Five hundred";
+                        tram = "năm trăm";
                         System.out.printf("%s %s",tram,chuc);
                         break;
                     case 6:
-                        tram = "Six hundred";
+                        tram = "sáu trăm";
                         System.out.printf("%s %s",tram,chuc);
                         break;
                     case 7:
-                        tram = "Seven hundred";
+                        tram = "bảy trăm";
                         System.out.printf("%s %s",tram,chuc);
                         break;
                     case 8:
-                        tram = "Eight hundred";
+                        tram = "tám trăm";
                         System.out.printf("%s %s",tram,chuc);
                         break;
                     case 9:
-                        tram = "Nine hundred";
+                        tram = "chín trăm";
                         System.out.printf("%s %s",tram,chuc);
                         break;
                 }
             } else if (numberHangChucCuaSoCo3ChuSo>= 20 && numberHangChucCuaSoCo3ChuSo < 100 ) {
                 switch (numberDonVi) {
                     case 1:
-                        donVi ="One";
+                        donVi ="một";
                         break;
                     case 2:
-                        donVi ="Two";
+                        donVi ="hai";
                         break;
                     case 3:
-                        donVi ="Three";
+                        donVi ="ba";
                         break;
                     case 4:
-                        donVi ="Four";
+                        donVi ="bốn";
                         break;
                     case 5:
-                        donVi ="Five";
+                        donVi ="năm";
                         break;
                     case 6:
-                        donVi ="Six";
+                        donVi ="sáu";
                         break;
                     case 7:
-                        donVi ="Seven";
+                        donVi ="bảy";
                         break;
                     case 8:
-                        donVi ="Eight";
+                        donVi ="tám";
                         break;
                     case 9:
-                        donVi ="Nine";
+                        donVi ="chín";
                         break;
                 }
                 switch (numberHangDonViCuaSoCo3ChuSo) {
                     case 2:
-                        chuc2 = "Twenty";
+                        chuc2 = "hai mươi";
                         break;
                     case 3:
-                        chuc2 = "Thirty";
+                        chuc2 = "ba mươi";
                         break;
                     case 4:
-                        chuc2 = "Forty";
+                        chuc2 = "bốn mươi";
                         break;
                     case 5:
-                        chuc2 = "Fifty";
+                        chuc2 = "năm mươi";
                         break;
                     case 6:
-                        chuc2 = "Sixty";
+                        chuc2 = "sáu mươi";
                         break;
                     case 7:
-                        chuc2 = "Seventy";
+                        chuc2 = "bảy mươi";
                         break;
                     case 8:
-                        chuc2 = "Eighty";
+                        chuc2 = "tám mươi";
                         break;
                     case 9:
-                        chuc2 = "Ninety";
+                        chuc2 = "chín mươi";
                         break;
                 }
                 switch (numberTram) {
                     case 1:
-                        tram = "One hundred";
+                        tram = "một trăm";
                         System.out.printf("%s %s %s",tram,chuc2,donVi);
                         break;
                     case 2:
-                        tram = "Two hundred";
+                        tram = "hai trăm";
                         System.out.printf("%s %s %s",tram,chuc2,donVi);
                         break;
                     case 3:
-                        tram = "Three hundred";
+                        tram = "ba trăm";
                         System.out.printf("%s %s %s",tram,chuc2,donVi);
                         break;
                     case 4:
-                        tram = "Four hundred";
+                        tram = "bốn trăm";
                         System.out.printf("%s %s %s",tram,chuc2,donVi);
                         break;
                     case 5:
-                        tram = "Five hundred";
+                        tram = "năm trăm";
                         System.out.printf("%s %s %s",tram,chuc2,donVi);
                         break;
                     case 6:
-                        tram = "Six hundred";
+                        tram = "sáu trăm";
                         System.out.printf("%s %s %s",tram,chuc2,donVi);
                         break;
                     case 7:
-                        tram = "Seven hundred";
+                        tram = "bảy trăm";
                         System.out.printf("%s %s %s",tram,chuc2,donVi);
                         break;
                     case 8:
-                        tram = "Eight hundred";
+                        tram = "tám trăm";
                         System.out.printf("%s %s %s",tram,chuc2,donVi);
                         break;
                     case 9:
-                        tram = "Nine hundred";
+                        tram = "chín trăm";
                         System.out.printf("%s %s %s",tram,chuc2,donVi);
                         break;
                 }
